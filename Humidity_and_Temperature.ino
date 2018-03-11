@@ -1,5 +1,5 @@
 #include <SimpleDHT.h>
-
+//you need DHT libraby to use this
 #include <DHT.h>
 
 #include <dht.h>
