@@ -104,7 +104,7 @@ void loop()
   line6data = analogRead(line6);
 
   Serial.println(junctioncount);
-  
+  //conditions based on values returned from IR sensor for staying INLINE
   if(line1data<50&&line4data<50&&(line3data<50||line5data<50))
   {
     Serial.println(reached_jucntion);
